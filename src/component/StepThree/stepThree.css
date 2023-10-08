@@ -1,0 +1,64 @@
+.StepThree {
+    height: 1024px;
+    background: var(--Background_Yellow, #FCF5E6);
+    justify-content: center;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+}
+
+.StepThree-Text {
+    height: 185px;
+    margin-top: 167px;
+    width: 1092px;
+    text-align: left;
+}
+
+.StepThree-Step1 {
+    color: var(--Main_Coral, #F07C4B);
+    font-family: Omyu;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.StepThree-Title {
+    color: #000;
+    font-family: Omyu;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.StepThree-Desc {
+    color: var(--gray-500, #A09E9C);
+    font-family: Omyu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 153.333% */
+    margin-left: 7px;
+}
+
+.StepThree-Button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 64px;
+}
+
+.Stepthree-Card {
+    height: 510px;
+    position: absolute;
+    top: 0px;
+    right: 36px;
+}
+
+.StepThree-Pictures {
+    width: 1092px;
+    height: 510px;
+    position: relative;
+}

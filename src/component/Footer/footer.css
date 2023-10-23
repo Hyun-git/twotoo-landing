@@ -1,0 +1,33 @@
+.Footer {
+  height: 298px;
+}
+.Footer_Instargram {
+  margin-top: 60px;
+  height: 66px;
+}
+.Footer_Link {
+  color: var(--gray-600, #898784);
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 36px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+.Footer_Copyright {
+  color: var(--gray-400, #d9d8d7);
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 28px;
+}
+
+a {
+  color: var(--gray-600, #898784);
+  text-decoration: none;
+}

@@ -16,7 +16,13 @@ function StepThree() {
           </div>
         </div>
         <div className="StepThree-Pictures">
-          <img className="StepThree-Button" src="img/StepThree-button.png" />
+          <img
+            onClick={() => {
+              window.open("https://two2too2.github.io/");
+            }}
+            className="StepThree-Button"
+            src="img/StepThree-button.png"
+          />
           <img className="Stepthree-Card" src="img/StepThree-card.png" />
         </div>
       </div>

@@ -1,73 +1,74 @@
 .StepOne {
-    height: 1024px;
-    background: var(--Background_Yellow, #FCF5E6);
-    justify-content: center;
-    display: flex;
-    position: relative;
-    overflow: hidden;
+  height: 1024px;
+  background: var(--Background_Yellow, #fcf5e6);
+  justify-content: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
 .StepOne-Text {
-    height: 185px;
-    margin-top: 167px;
-    width: 1092px;
-    text-align: left;
+  height: 185px;
+  margin-top: 167px;
+  width: 1092px;
+  text-align: left;
 }
 
 .StepOne-Step1 {
-    color: var(--Main_Coral, #F07C4B);
-    font-family: Omyu;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 28px;
+  color: var(--Main_Coral, #f07c4b);
+  font-family: Omyu;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
 }
 
 .StepOne-Title {
-    color: #000;
-    font-family: Omyu;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: Omyu;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .StepOne-Desc {
-    color: var(--gray-500, #A09E9C);
-    font-family: Omyu;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46px; /* 153.333% */
-    margin-left: 7px;
+  color: var(--gray-500, #a09e9c);
+  font-family: Omyu;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 153.333% */
+  margin-left: 7px;
 }
 
 .StepOne-Flower {
-    height: 332px;
-    position:absolute;
-    bottom: 270px;
-    z-index: 1;
+  height: 332px;
+  position: absolute;
+  bottom: 270px;
+  z-index: 1;
 }
 
 .StepOne-ImageContainer {
-    width: 1440px;
-    overflow: hidden;
-    display: contents;
+  width: 1440px;
+  overflow: hidden;
+  display: contents;
 }
 
-.StepOne-Choice {
-    position: absolute;
-    bottom: 156px;
-    height: 213px;
-    animation: scroll 10s linear infinite;
+.StepOne-Choice-img1 {
+  position: absolute;
+  bottom: 156px;
+  height: 213px;
+  animation: scroll 10s linear infinite;
+  overflow: hidden;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%); /* 이미지의 너비가 두 배이므로 -50%로 이동 */
-    }
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
 }

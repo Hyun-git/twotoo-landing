@@ -5,6 +5,7 @@ import StepOne from './component/StepOne/stepOne';
 import StepTwo from './component/StepTwo/stepTwo';
 import StepThree from './component/StepThree/stepThree';
 import StepFour from './component/StepFour/stepFour';
+import Review from './component/Review/review';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <StepTwo />
       <StepThree />
       <StepFour />
+      <Review />
     </div>
   );
 }

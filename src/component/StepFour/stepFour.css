@@ -1,65 +1,60 @@
 .StepFour {
-    height: 1024px;
-    background: var(--Background_Yellow, #FCF5E6);
-    justify-items: center;
-    display: grid;
-    position: relative;
-    overflow: hidden;
+  height: 1024px;
+  background: var(--Background_Yellow, #fcf5e6);
+  justify-items: center;
+  display: grid;
+  position: relative;
+  overflow: hidden;
 }
 
 .StepFour-Text {
-    height: 235px;
-    margin-top: 167px;
-    width: 1092px;
-    text-align: left;
-    z-index: 2;
+  height: 235px;
+  margin-top: 167px;
+  width: 1024px;
+  text-align: left;
+  z-index: 2;
+  position: relative;
 }
 
 .StepFour-Step1 {
-    color: var(--Main_Coral, #F07C4B);
-    font-family: Omyu;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 28px;
+  color: var(--Main_Coral, #f07c4b);
+  font-family: Omyu;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
 }
 
 .StepFour-Title {
-    color: #000;
-    font-family: Omyu;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: Omyu;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .StepFour-Desc {
-    color: var(--gray-500, #A09E9C);
-    font-family: Omyu;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46px; /* 153.333% */
-    margin-left: 7px;
+  color: var(--gray-500, #a09e9c);
+  font-family: Omyu;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 153.333% */
+  margin-left: 7px;
 }
 
-.StepFour-Pictures {
-    position:relative;
-    width: 1440px;
-    bottom: 0;
+.StepFour-Card {
+  position: absolute;
+  bottom: 167px;
+  right: 0px;
+  height: 550px;
+  top: 140px;
 }
 
-.StepFour-Card{
-    position: absolute;
-    bottom: 167px;
-    right:210px;
-    height: 550px;
-}
-
-.StepFour-Cloud{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 518px;
+.StepFour-Cloud {
+  position: absolute;
+  bottom: 0px;
+  height: 518px;
 }

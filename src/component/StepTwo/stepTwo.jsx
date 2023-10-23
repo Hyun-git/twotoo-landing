@@ -10,9 +10,6 @@ function StepTwo() {
         <div className="StepTwo-Title">
           22일 동안 꽃에 물을 주며 키워봐요 <br />
         </div>
-        <div className="StepTwo-Desc">
-          80% 이상 달성시 꽃을 확인 할 수 있어요{" "}
-        </div>
       </div>
       <img className="StepTwo-Picture" src="img/StepTwo-picture.png" />
       <img className="StepTwo-Ground" src="img/StepTwo-gorund.png" />

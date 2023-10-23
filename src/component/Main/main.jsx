@@ -17,9 +17,7 @@ function Main() {
         <img className="Main-flowers" src="img/flower.png"></img>
         <img className="Main-bee" src="img/bee.png"></img>
       </div>
-      <div className="Main-ground">
-        <img alt="Ground" src="img/ground.png" />
-      </div>
+      <img className="Main-ground" alt="Ground" src="img/ground.png" />
     </div>
   );
 }

@@ -56,7 +56,7 @@
   display: contents;
 }
 
-.StepOne-Choice-img1 {
+.StepOne-Choice-img {
   position: absolute;
   bottom: 156px;
   height: 213px;
@@ -64,11 +64,28 @@
   overflow: hidden;
 }
 
+.StepOne-Choice-img_dup {
+  position: absolute;
+  bottom: 156px;
+  height: 213px;
+  animation: scroll4 10s linear infinite;
+  overflow: hidden;
+}
+
 @keyframes scroll {
   0% {
-    transform: translateX(10%);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(-10%);
+    transform: translateX(-2560px);
+  }
+}
+
+@keyframes scroll4 {
+  0% {
+    transform: translateX(4082px);
+  }
+  100% {
+    transform: translateX(1523px);
   }
 }

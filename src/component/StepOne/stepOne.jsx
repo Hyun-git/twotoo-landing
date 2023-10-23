@@ -19,7 +19,12 @@ function StepOne() {
       />
       <div className="StepOne-ImageContainer">
         <img
-          className="StepOne-Choice-img1"
+          className="StepOne-Choice-img"
+          alt="choice"
+          src="img/StepOne-choice.png"
+        />
+        <img
+          className="StepOne-Choice-img_dup"
           alt="choice"
           src="img/StepOne-choice.png"
         />

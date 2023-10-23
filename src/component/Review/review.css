@@ -1,0 +1,57 @@
+.Review {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  background: var(--secondary-01, #ffe6af);
+}
+
+.Review_Title {
+  padding-top: 146px;
+  color: var(--Primary-color, #443018);
+  text-align: center;
+  font-family: Omyu;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Review_Images_container {
+  margin-top: 84px;
+  height: 188px;
+  text-align: unset;
+  overflow: hidden;
+}
+
+.Review_Images {
+  position: absolute;
+  height: 188px;
+  left: 0px;
+  animation: scroll2 10s linear infinite;
+  overflow: hidden;
+}
+.Review_Images_dup {
+  position: absolute;
+  height: 188px;
+  left: 0px;
+  animation: scroll3 10s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-2560px);
+  }
+}
+
+@keyframes scroll3 {
+  0% {
+    transform: translateX(3424px);
+  }
+  100% {
+    transform: translateX(864px);
+  }
+}

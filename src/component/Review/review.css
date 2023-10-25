@@ -27,14 +27,14 @@
   position: absolute;
   height: 188px;
   left: 0px;
-  animation: scroll2 10s linear infinite;
+  animation: scroll2 20s linear infinite;
   overflow: hidden;
 }
 .Review_Images_dup {
   position: absolute;
   height: 188px;
   left: 0px;
-  animation: scroll3 10s linear infinite;
+  animation: scroll3 20s linear infinite;
   overflow: hidden;
 }
 

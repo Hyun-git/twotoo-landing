@@ -3,7 +3,12 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <img className="Footer_Instargram" src="img/Instargram.png" />
+      <img
+        onClick={() => window.open("https://www.instagram.com/twotoo.22/")}
+        target="_blank"
+        className="Footer_Instargram"
+        src="img/Instargram.png"
+      />
       <div className="Footer_Link">
         <a href="https://two2too2.github.io/personal.html" target="_blank">
           개인정보처리방침

@@ -4,6 +4,7 @@
 .Footer_Instargram {
   margin-top: 60px;
   height: 66px;
+  cursor: pointer;
 }
 .Footer_Link {
   color: var(--gray-600, #898784);

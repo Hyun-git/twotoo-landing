@@ -19,6 +19,11 @@
   text-align: left;
   margin-right: 208px;
   margin-left: 208px;
+
+  @media (max-width: 1024px) {
+    width: 582px;
+    margin: 126px auto auto auto;
+  }
 }
 
 .StepThree-Step1 {
@@ -29,6 +34,10 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 28px;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .StepThree-Title {
@@ -38,6 +47,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .StepThree-Desc {
@@ -48,6 +61,10 @@
   font-weight: 400;
   line-height: 46px; /* 153.333% */
   margin-left: 7px;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .StepThree-Button {
@@ -56,6 +73,11 @@
   left: 0;
   height: 64px;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    top: 0px;
+  }
 }
 
 .Stepthree-Card {
@@ -63,6 +85,13 @@
   position: absolute;
   top: 0px;
   right: 36px;
+
+  @media (max-width: 1024px) {
+    height: 381px;
+    right: 0;
+    bottom: 0px;
+    top: unset;
+  }
 }
 
 .StepThree-Pictures {
@@ -71,4 +100,9 @@
   position: relative;
   margin-right: 208px;
   margin-left: 208px;
+
+  @media (max-width: 1024px) {
+    width: 582px;
+    margin: auto;
+  }
 }

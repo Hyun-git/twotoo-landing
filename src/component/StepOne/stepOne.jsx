@@ -28,6 +28,16 @@ function StepOne() {
           alt="choice"
           src="img/StepOne-choice.png"
         />
+        <img
+          className="StepOne-mobile-img"
+          alt="choice"
+          src="img/StepOne-mobile.png"
+        />
+        <img
+          className="StepOne-mobile-img_dup"
+          alt="choice"
+          src="img/StepOne-mobile.png"
+        />
       </div>
     </div>
   );

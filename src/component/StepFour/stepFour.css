@@ -14,6 +14,10 @@
   text-align: left;
   z-index: 2;
   position: relative;
+  @media (max-width: 1024px) {
+    width: 579px;
+    height: 636px;
+  }
 }
 
 .StepFour-Step1 {
@@ -24,6 +28,10 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 28px;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .StepFour-Title {
@@ -33,6 +41,24 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.StepFour-Title--mobile {
+  color: #000;
+  display: none;
+  font-family: Omyu;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
 }
 
 .StepFour-Desc {
@@ -51,6 +77,12 @@
   right: 0px;
   height: 550px;
   top: 140px;
+
+  @media (max-width: 1024px) {
+    height: 412px;
+    top: unset;
+    bottom: 0px;
+  }
 }
 
 .StepFour-Cloud {

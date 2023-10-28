@@ -14,6 +14,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .Review_Images_container {

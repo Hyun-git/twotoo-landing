@@ -12,6 +12,9 @@
   margin-top: 167px;
   width: 1024px;
   text-align: left;
+  @media (max-width: 1024px) {
+    width: 600px;
+  }
 }
 
 .StepTwo-Step1 {
@@ -22,6 +25,10 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 28px;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .StepTwo-Title {
@@ -31,6 +38,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
 }
 
 .StepTwo-Desc {
@@ -48,6 +59,11 @@
   bottom: 249px;
   height: 346px;
   z-index: 1;
+
+  @media (max-width: 1024px) {
+    height: 279px;
+    bottom: 297px;
+  }
 }
 
 .StepTwo-Ground {

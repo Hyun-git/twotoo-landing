@@ -12,6 +12,10 @@ function StepFour() {
           <br />
           메세지를 보내요
         </div>
+
+        <div className="StepFour-Title--mobile">
+          ‘콕 찌르기’로 짝꿍에게 메세지를 보내요
+        </div>
         <div className="StepFour-Desc">하루에 최대 5번까지 보낼 수 있어요 </div>
         <img className="StepFour-Card" src="img/StepFour-card.png" />
       </div>

@@ -4,6 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 600px) {
+    height: 400px;
+  }
 }
 
 .Experience-flower {
@@ -37,6 +41,10 @@
     font-size: 36px;
     word-break: keep-all;
   }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
 }
 
 .Experience-desc {
@@ -51,5 +59,9 @@
   @media (max-width: 1024px) {
     font-size: 20px;
     word-break: keep-all;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
   }
 }

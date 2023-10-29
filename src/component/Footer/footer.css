@@ -1,10 +1,19 @@
 .Footer {
   height: 298px;
+
+  @media (max-width: 600px) {
+    height: 500px;
+    text-align: left;
+  }
 }
 .Footer_Instargram {
   margin-top: 60px;
   height: 66px;
   cursor: pointer;
+
+  @media (max-width: 600px) {
+    margin-left: 24px;
+  }
 }
 .Footer_Link {
   color: var(--gray-600, #898784);
@@ -17,6 +26,12 @@
   gap: 40px;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 600px) {
+    display: grid;
+    justify-content: left;
+    margin-left: 24px;
+  }
 }
 .Footer_Copyright {
   color: var(--gray-400, #d9d8d7);
@@ -26,6 +41,11 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 28px;
+
+  @media (max-width: 600px) {
+    text-align: center;
+    margin-top: 50px;
+  }
 }
 
 a {

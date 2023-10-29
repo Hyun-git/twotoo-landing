@@ -5,6 +5,10 @@
   display: flex;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 600px) {
+    height: 800px;
+  }
 }
 
 .StepTwo-Text {
@@ -12,8 +16,11 @@
   margin-top: 167px;
   width: 1024px;
   text-align: left;
+  margin-left: 24px;
+
   @media (max-width: 1024px) {
     width: 600px;
+    margin-top: 110px;
   }
 }
 
@@ -29,6 +36,9 @@
   @media (max-width: 1024px) {
     font-size: 36px;
   }
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
 }
 
 .StepTwo-Title {
@@ -41,6 +51,10 @@
 
   @media (max-width: 1024px) {
     font-size: 36px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
   }
 }
 
@@ -63,6 +77,10 @@
   @media (max-width: 1024px) {
     height: 279px;
     bottom: 297px;
+  }
+
+  @media (max-width: 600px) {
+    height: 170px;
   }
 }
 

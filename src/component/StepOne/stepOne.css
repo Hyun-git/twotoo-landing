@@ -5,6 +5,10 @@
   display: flex;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 600px) {
+    height: 800px;
+  }
 }
 
 .StepOne-Text {
@@ -12,9 +16,14 @@
   margin-top: 167px;
   width: 1092px;
   text-align: left;
+  margin-left: 24px;
 
   @media (max-width: 1024px) {
     width: 430px;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 110px;
   }
 }
 
@@ -29,6 +38,10 @@
   @media (max-width: 1024px) {
     font-size: 36px;
   }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
 }
 
 .StepOne-Title {
@@ -41,19 +54,8 @@
   @media (max-width: 1024px) {
     font-size: 36px;
   }
-}
-
-.StepOne-Desc {
-  color: var(--gray-500, #a09e9c);
-  font-family: Omyu;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 46px; /* 153.333% */
-  margin-left: 7px;
-
-  @media (max-width: 1024px) {
-    font-size: 36px;
+  @media (max-width: 600px) {
+    font-size: 24px;
   }
 }
 
@@ -64,7 +66,8 @@
   z-index: 1;
 
   @media (max-width: 1024px) {
-    height: 264px;
+    height: 200px;
+    bottom: 300px;
   }
 }
 

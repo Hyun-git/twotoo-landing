@@ -26,7 +26,7 @@
   @media (max-width: 600px) {
     font-size: 24px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     font-size: 36px;
   }
   color: var(--Main_Coral, #f07c4b);
@@ -42,7 +42,7 @@
   @media (max-width: 600px) {
     font-size: 24px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     font-size: 36px;
   }
   color: #000;
@@ -67,7 +67,7 @@
   @media (max-width: 600px) {
     height: 170px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     height: 279px;
     bottom: 297px;
   }

@@ -1,7 +1,4 @@
 .StepThree {
-  @media (max-width: 600px) {
-    height: 800px;
-  }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
   justify-content: center;
@@ -13,16 +10,19 @@
     width: 1440px;
     border-radius: 0 0 50px 50px;
   }
+  @media (max-width: 600px) {
+    height: 800px;
+  }
 }
 
 .StepThree-Text {
   @media (max-width: 600px) {
     width: 327px;
-    margin-left: auto;
+    margin: 80px auto auto auto;
     height: 130px;
     margin-top: 80px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     width: 582px;
     margin: 110px auto auto auto;
   }
@@ -39,7 +39,7 @@
   @media (max-width: 600px) {
     font-size: 24px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     font-size: 36px;
   }
   color: var(--Main_Coral, #f07c4b);
@@ -55,7 +55,7 @@
   @media (max-width: 600px) {
     font-size: 24px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     font-size: 36px;
   }
 
@@ -71,7 +71,7 @@
   @media (max-width: 600px) {
     font-size: 18px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     font-size: 24px;
   }
 
@@ -88,7 +88,7 @@
   @media (max-width: 600px) {
     height: 48px;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     font-size: 36px;
     top: 0px;
   }
@@ -104,8 +104,10 @@
   @media (max-width: 600px) {
     height: 327px;
     bottom: 24px;
+    top: unset;
+    right: 0;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     height: 381px;
     right: 0;
     bottom: 0px;
@@ -121,8 +123,9 @@
 .StepThree-Pictures {
   @media (max-width: 600px) {
     width: 327px;
+    margin: auto;
   }
-  @media (max-width: 1024px) {
+  @media (min-width: 601px) and (max-width: 1024px) {
     width: 582px;
     margin: auto;
   }

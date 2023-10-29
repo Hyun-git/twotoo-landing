@@ -1,4 +1,7 @@
 .StepThree {
+  @media (max-width: 600px) {
+    height: 800px !important;
+  }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
   justify-content: center;
@@ -10,21 +13,18 @@
     width: 1440px;
     border-radius: 0 0 50px 50px;
   }
-  @media (max-width: 600px) {
-    height: 800px;
-  }
 }
 
 .StepThree-Text {
   @media (max-width: 600px) {
-    width: 327px;
-    margin: 80px auto auto auto;
-    height: 130px;
-    margin-top: 80px;
+    width: 327px !important;
+    margin: 80px auto auto auto !important;
+    height: 130px !important;
+    margin-top: 80px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    width: 582px;
-    margin: 110px auto auto auto;
+    width: 582px !important;
+    margin: 110px auto auto auto !important;
   }
 
   height: 185px;
@@ -37,10 +37,10 @@
 
 .StepThree-Step1 {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 36px !important;
   }
   color: var(--Main_Coral, #f07c4b);
   font-family: Omyu;
@@ -53,10 +53,10 @@
 
 .StepThree-Title {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 36px !important;
   }
 
   color: #000;
@@ -69,10 +69,10 @@
 
 .StepThree-Desc {
   @media (max-width: 600px) {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 
   color: var(--gray-500, #a09e9c);
@@ -86,11 +86,12 @@
 
 .StepThree-Button {
   @media (max-width: 600px) {
-    height: 48px;
+    height: 48px !important;
+    top: 0;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
-    top: 0px;
+    font-size: 36px !important;
+    top: 0px !important;
   }
 
   position: absolute;
@@ -102,16 +103,16 @@
 
 .Stepthree-Card {
   @media (max-width: 600px) {
-    height: 327px;
-    bottom: 24px;
-    top: unset;
-    right: 0;
+    height: 327px !important;
+    bottom: 24px !important;
+    top: unset !important;
+    right: 0 !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    height: 381px;
-    right: 0;
-    bottom: 0px;
-    top: unset;
+    height: 381px !important;
+    right: 0 !important;
+    bottom: 0px !important;
+    top: unset !important;
   }
 
   height: 510px;
@@ -122,12 +123,12 @@
 
 .StepThree-Pictures {
   @media (max-width: 600px) {
-    width: 327px;
-    margin: auto;
+    width: 327px !important;
+    margin: auto !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    width: 582px;
-    margin: auto;
+    width: 582px !important;
+    margin: auto !important;
   }
   width: 1024px;
   height: 510px;

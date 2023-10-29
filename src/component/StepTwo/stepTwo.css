@@ -1,6 +1,6 @@
 .StepTwo {
   @media (max-width: 600px) {
-    height: 800px;
+    height: 800px !important;
   }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
@@ -12,8 +12,8 @@
 
 .StepTwo-Text {
   @media (max-width: 1024px) {
-    width: 600px;
-    margin-top: 110px;
+    width: 600px !important;
+    margin-top: 110px !important;
   }
   height: 185px;
   margin-top: 167px;
@@ -24,10 +24,10 @@
 
 .StepTwo-Step1 {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 36px !important;
   }
   color: var(--Main_Coral, #f07c4b);
   font-family: Omyu;
@@ -40,10 +40,10 @@
 
 .StepTwo-Title {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 36px !important;
   }
   color: #000;
   font-family: Omyu;
@@ -65,11 +65,12 @@
 
 .StepTwo-Picture {
   @media (max-width: 600px) {
-    height: 170px;
+    height: 170px !important;
+    bottom: 297px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    height: 279px;
-    bottom: 297px;
+    height: 279px !important;
+    bottom: 297px !important;
   }
   position: absolute;
   bottom: 249px;

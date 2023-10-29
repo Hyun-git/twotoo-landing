@@ -1,6 +1,6 @@
 .Experience {
   @media (max-width: 600px) {
-    height: 400px;
+    height: 400px !important;
   }
   background-color: #f8f8f8;
   height: 592px;
@@ -11,8 +11,8 @@
 
 .Experience-flower {
   @media (max-width: 1024px) {
-    width: 161px;
-    height: 141px;
+    width: 161px !important;
+    height: 141px !important;
   }
   width: 161px;
   height: 141px;
@@ -28,10 +28,11 @@
 
 .Experience-title {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
+    word-break: keep-all !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 36px !important;
     word-break: keep-all;
   }
   color: var(--Primary-color, #443018);
@@ -45,11 +46,12 @@
 
 .Experience-desc {
   @media (max-width: 600px) {
-    font-size: 18px;
+    font-size: 18px !important;
+    word-break: keep-all !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 20px;
-    word-break: keep-all;
+    font-size: 20px !important;
+    word-break: keep-all !important;
   }
   color: var(--Primary-color, #443018);
   text-align: center;

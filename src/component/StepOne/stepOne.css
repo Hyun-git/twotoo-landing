@@ -1,6 +1,6 @@
 .StepOne {
   @media (max-width: 600px) {
-    height: 800px;
+    height: 800px !important;
   }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
@@ -12,7 +12,7 @@
 
 .StepOne-Text {
   @media (max-width: 600px) {
-    margin-top: 110px;
+    margin-top: 110px !important;
   }
   @media (min-width: 601px) and (max-width: 1024px) {
     width: 430px;
@@ -26,7 +26,7 @@
 
 .StepOne-Step1 {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 
   @media (min-width: 601px) and (max-width: 1024px) {
@@ -43,11 +43,11 @@
 
 .StepOne-Title {
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 
   @media (min-width: 601px) and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 36px !important;
   }
   color: #000;
   font-family: Omyu;
@@ -59,8 +59,8 @@
 
 .StepOne-Flower {
   @media (max-width: 1024px) {
-    height: 200px;
-    bottom: 300px;
+    height: 200px !important;
+    bottom: 300px !important;
   }
   height: 332px;
   position: absolute;
@@ -76,7 +76,7 @@
 
 .StepOne-Choice-img {
   @media (max-width: 1024px) {
-    display: none;
+    display: none !important;
   }
   position: absolute;
   bottom: 156px;
@@ -87,7 +87,7 @@
 
 .StepOne-Choice-img_dup {
   @media (max-width: 1024px) {
-    display: none;
+    display: none !important;
   }
   position: absolute;
   bottom: 156px;

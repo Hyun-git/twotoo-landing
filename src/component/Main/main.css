@@ -10,7 +10,7 @@
 
 .Main-contents {
   @media (max-width: 1024px) {
-    width: 326px;
+    width: 326px !important;
   }
 
   display: flex;
@@ -22,10 +22,10 @@
 
 .Main-desc {
   @media (max-width: 1024px) {
-    width: 325.803px;
-    height: 29.988px;
-    font-size: 32px;
-    top: 45px;
+    width: 325.803px !important;
+    height: 29.988px !important;
+    font-size: 32px !important;
+    top: 45px !important;
   }
   color: var(--Primary-color, #443018);
   font-family: Omyu;
@@ -41,9 +41,9 @@
 
 .Main-buttons {
   @media (max-width: 1024px) {
-    width: 325.37px;
-    height: 40.584px;
-    top: 113px;
+    width: 325.37px !important;
+    height: 40.584px !important;
+    top: 113px !important;
   }
   position: absolute;
   top: 168px;
@@ -54,8 +54,8 @@
 
 .Main-googleBtn {
   @media (max-width: 1024px) {
-    width: 152.619px;
-    height: 39.985px;
+    width: 152.619px !important;
+    height: 39.985px !important;
   }
   all: unset;
   position: absolute;
@@ -71,8 +71,8 @@
 
 .Main-appleBtn {
   @media (max-width: 1024px) {
-    width: 152.619px;
-    height: 39.985px;
+    width: 152.619px !important;
+    height: 39.985px !important;
   }
   all: unset;
   position: absolute;
@@ -88,8 +88,8 @@
 
 .Main-twotoo {
   @media (max-width: 1024px) {
-    width: 155.838px;
-    height: 23.991px;
+    width: 155.838px !important;
+    height: 23.991px !important;
   }
   width: 239.957px;
   height: 40px;
@@ -107,8 +107,8 @@
 
 .Main-flowers {
   @media (max-width: 1024px) {
-    width: 367px;
-    height: 184.129px;
+    width: 367px !important;
+    height: 184.129px !important;
   }
   position: absolute;
   right: 0;
@@ -119,10 +119,10 @@
 
 .Main-bee {
   @media (max-width: 1024px) {
-    width: 118.219px;
-    height: 91.765px;
-    left: 131px;
-    top: 223px;
+    width: 118.219px !important;
+    height: 91.765px !important;
+    left: 131px !important;
+    top: 223px !important;
   }
   position: absolute;
   right: 34px;

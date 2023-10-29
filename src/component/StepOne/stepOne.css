@@ -98,7 +98,7 @@
 
 .StepOne-mobile-img {
   @media (max-width: 1024px) {
-    display: block;
+    display: block !important;
   }
   position: absolute;
   display: none;
@@ -111,7 +111,7 @@
 
 .StepOne-mobile-img_dup {
   @media (max-width: 1024px) {
-    display: block;
+    display: block !important;
   }
   position: absolute;
   display: none;

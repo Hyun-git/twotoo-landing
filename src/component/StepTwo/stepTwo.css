@@ -1,30 +1,34 @@
 .StepTwo {
+  @media (max-width: 600px) {
+    height: 800px;
+  }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
   justify-content: center;
   display: flex;
   position: relative;
   overflow: hidden;
-
-  @media (max-width: 600px) {
-    height: 800px;
-  }
 }
 
 .StepTwo-Text {
+  @media (max-width: 1024px) {
+    width: 600px;
+    margin-top: 110px;
+  }
   height: 185px;
   margin-top: 167px;
   width: 1024px;
   text-align: left;
   margin-left: 24px;
-
-  @media (max-width: 1024px) {
-    width: 600px;
-    margin-top: 110px;
-  }
 }
 
 .StepTwo-Step1 {
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
   color: var(--Main_Coral, #f07c4b);
   font-family: Omyu;
   font-size: 50px;
@@ -32,30 +36,21 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 28px;
-
-  @media (max-width: 1024px) {
-    font-size: 36px;
-  }
-  @media (max-width: 600px) {
-    font-size: 24px;
-  }
 }
 
 .StepTwo-Title {
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
   color: #000;
   font-family: Omyu;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
-  @media (max-width: 1024px) {
-    font-size: 36px;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 24px;
-  }
 }
 
 .StepTwo-Desc {
@@ -69,19 +64,17 @@
 }
 
 .StepTwo-Picture {
-  position: absolute;
-  bottom: 249px;
-  height: 346px;
-  z-index: 1;
-
+  @media (max-width: 600px) {
+    height: 170px;
+  }
   @media (max-width: 1024px) {
     height: 279px;
     bottom: 297px;
   }
-
-  @media (max-width: 600px) {
-    height: 170px;
-  }
+  position: absolute;
+  bottom: 249px;
+  height: 346px;
+  z-index: 1;
 }
 
 .StepTwo-Ground {

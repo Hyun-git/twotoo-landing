@@ -1,4 +1,7 @@
 .StepThree {
+  @media (max-width: 600px) {
+    height: 800px;
+  }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
   justify-content: center;
@@ -10,34 +13,35 @@
     width: 1440px;
     border-radius: 0 0 50px 50px;
   }
-
-  @media (max-width: 600px) {
-    height: 800px;
-  }
 }
 
 .StepThree-Text {
-  height: 185px;
-  margin-top: 167px;
-  width: 1024px;
-  text-align: left;
-  margin-right: 208px;
-  margin-left: 208px;
-
-  @media (max-width: 1024px) {
-    width: 582px;
-    margin: 110px auto auto auto;
-  }
-
   @media (max-width: 600px) {
     width: 327px;
     margin-left: auto;
     height: 130px;
     margin-top: 80px;
   }
+  @media (max-width: 1024px) {
+    width: 582px;
+    margin: 110px auto auto auto;
+  }
+
+  height: 185px;
+  margin-top: 167px;
+  width: 1024px;
+  text-align: left;
+  margin-right: 208px;
+  margin-left: 208px;
 }
 
 .StepThree-Step1 {
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
   color: var(--Main_Coral, #f07c4b);
   font-family: Omyu;
   font-size: 50px;
@@ -45,34 +49,32 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 28px;
+}
 
+.StepThree-Title {
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
   @media (max-width: 1024px) {
     font-size: 36px;
   }
 
-  @media (max-width: 600px) {
-    font-size: 24px;
-  }
-}
-
-.StepThree-Title {
   color: #000;
   font-family: Omyu;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
-  @media (max-width: 1024px) {
-    font-size: 36px;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 24px;
-  }
 }
 
 .StepThree-Desc {
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+
   color: var(--gray-500, #a09e9c);
   font-family: Omyu;
   font-size: 30px;
@@ -80,39 +82,29 @@
   font-weight: 400;
   line-height: 46px; /* 153.333% */
   margin-left: 7px;
-
-  @media (max-width: 1024px) {
-    font-size: 24px;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 18px;
-  }
 }
 
 .StepThree-Button {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 64px;
-  cursor: pointer;
-
+  @media (max-width: 600px) {
+    height: 48px;
+  }
   @media (max-width: 1024px) {
     font-size: 36px;
     top: 0px;
   }
 
-  @media (max-width: 600px) {
-    height: 48px;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64px;
+  cursor: pointer;
 }
 
 .Stepthree-Card {
-  height: 510px;
-  position: absolute;
-  top: 0px;
-  right: 36px;
-
+  @media (max-width: 600px) {
+    height: 327px;
+    bottom: 24px;
+  }
   @media (max-width: 1024px) {
     height: 381px;
     right: 0;
@@ -120,25 +112,23 @@
     top: unset;
   }
 
-  @media (max-width: 600px) {
-    height: 327px;
-    bottom: 24px;
-  }
+  height: 510px;
+  position: absolute;
+  top: 0px;
+  right: 36px;
 }
 
 .StepThree-Pictures {
+  @media (max-width: 600px) {
+    width: 327px;
+  }
+  @media (max-width: 1024px) {
+    width: 582px;
+    margin: auto;
+  }
   width: 1024px;
   height: 510px;
   position: relative;
   margin-right: 208px;
   margin-left: 208px;
-
-  @media (max-width: 1024px) {
-    width: 582px;
-    margin: auto;
-  }
-
-  @media (max-width: 600px) {
-    width: 327px;
-  }
 }

@@ -1,33 +1,37 @@
 .StepOne {
+  @media (max-width: 600px) {
+    height: 800px;
+  }
   height: 1024px;
   background: var(--Background_Yellow, #fcf5e6);
   justify-content: center;
   display: flex;
   position: relative;
   overflow: hidden;
-
-  @media (max-width: 600px) {
-    height: 800px;
-  }
 }
 
 .StepOne-Text {
+  @media (max-width: 600px) {
+    margin-top: 110px;
+  }
+  @media (max-width: 1024px) {
+    width: 430px;
+  }
   height: 185px;
   margin-top: 167px;
   width: 1092px;
   text-align: left;
   margin-left: 24px;
-
-  @media (max-width: 1024px) {
-    width: 430px;
-  }
-
-  @media (max-width: 600px) {
-    margin-top: 110px;
-  }
 }
 
 .StepOne-Step1 {
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
   color: var(--Main_Coral, #f07c4b);
   font-family: Omyu;
   font-size: 50px;
@@ -35,40 +39,33 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 28px;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 24px;
-  }
 }
 
 .StepOne-Title {
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
   color: #000;
   font-family: Omyu;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-  }
-  @media (max-width: 600px) {
-    font-size: 24px;
-  }
 }
 
 .StepOne-Flower {
-  height: 332px;
-  position: absolute;
-  bottom: 270px;
-  z-index: 1;
-
   @media (max-width: 1024px) {
     height: 200px;
     bottom: 300px;
   }
+  height: 332px;
+  position: absolute;
+  bottom: 270px;
+  z-index: 1;
 }
 
 .StepOne-ImageContainer {
@@ -78,29 +75,31 @@
 }
 
 .StepOne-Choice-img {
+  @media (max-width: 1024px) {
+    display: none;
+  }
   position: absolute;
   bottom: 156px;
   height: 213px;
   animation: scroll 20s linear infinite;
   overflow: hidden;
-
-  @media (max-width: 1024px) {
-    display: none;
-  }
 }
 
 .StepOne-Choice-img_dup {
+  @media (max-width: 1024px) {
+    display: none;
+  }
   position: absolute;
   bottom: 156px;
   height: 213px;
   animation: scroll4 20s linear infinite;
   overflow: hidden;
-  @media (max-width: 1024px) {
-    display: none;
-  }
 }
 
 .StepOne-mobile-img {
+  @media (max-width: 1024px) {
+    display: block;
+  }
   position: absolute;
   display: none;
   width: 1176px;
@@ -108,13 +107,12 @@
   bottom: 79px;
   animation: scroll5 20s linear infinite;
   overflow: hidden;
-
-  @media (max-width: 1024px) {
-    display: block;
-  }
 }
 
 .StepOne-mobile-img_dup {
+  @media (max-width: 1024px) {
+    display: block;
+  }
   position: absolute;
   display: none;
   width: 1176px;
@@ -122,10 +120,6 @@
   bottom: 79px;
   animation: scroll6 20s linear infinite;
   overflow: hidden;
-
-  @media (max-width: 1024px) {
-    display: block;
-  }
 }
 
 @keyframes scroll {

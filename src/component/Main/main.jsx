@@ -28,7 +28,7 @@ function Main() {
             <img src="img/button_apple.png" />
           </button>
         </div>
-        <img className="Main-flowers" src="img/flower.png"></img>
+        <img className="Main-flowers" src="../img/flower.png"></img>
         <img className="Main-bee" src="img/bee.png"></img>
       </div>
       <img className="Main-ground" alt="Ground" src="img/ground.png" />

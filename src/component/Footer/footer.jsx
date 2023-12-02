@@ -19,9 +19,7 @@ function Footer() {
         <a href="https://forms.gle/ywBXSkWdRJFx87Dv7" target="_blank">
           투투에 문의하기
         </a>
-        <a href="https://two2too2.github.io/creater.html" target="_blank">
-          만든이들
-        </a>
+        <a href="/makers">만든이들</a>
       </div>
       <div className="Footer_Copyright">
         Copyright © Twotoo. All rights reserved.
